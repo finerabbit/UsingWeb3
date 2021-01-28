@@ -50,7 +50,7 @@ console.log(amount);
     for (let index = 0; index < result.distribution.length; index++) {
         console.log(oneSplitDexes[index] + ": " + result.distribution[index] + "%");
     }
-});*/.
+});*/
 
 
 resultFuck = onesplitContract.methods.getExpectedReturn(fromToken, toToken, amount, 100, 0).call()

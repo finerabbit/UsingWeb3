@@ -52,6 +52,7 @@ console.log(amount);
     }
 });*/
 
+
 resultFuck = onesplitContract.methods.getExpectedReturn(fromToken, toToken, amount, 100, 0).call()
 .then((result) => {
     // Do something with roundData
